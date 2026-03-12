@@ -62,9 +62,8 @@ I am continuously learning and improving my development skills while building re
 - AI & Machine Learning Basics  
 
 ---
-
+- 📫 How to reach me **adityaara7667@gmail.com**
 ## 📫 Connect With Me  
- **adityaara7667@gmail.com**
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/aditya-kumar-47a44b380/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/aditya-kumar-47a44b380/" height="30" width="40" /></a>
 <a href="https://www.topcoder.com/members/802152" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="802152" height="30" width="40" /></a>
@@ -72,8 +71,7 @@ I am continuously learning and improving my development skills while building re
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=adityakumar-ara&show_icons=true&locale=en&layout=compact" alt="adityakumar-ara" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adityakumar-ara&show_icons=true&locale=en" alt="adityakumar-ara" /></p>
----
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adityakumar-ara&" alt="adityakumar-ara" /></p>
 <div align="center">
 
 ⭐ Thank you for visiting my profile!  
