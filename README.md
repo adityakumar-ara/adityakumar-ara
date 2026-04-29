@@ -32,6 +32,7 @@ I am continuously learning and improving my development skills while building re
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://tse3.mm.bing.net/th/id/OIP.1LQLMCHf22t-MdK7op_rLgHaEo?pid=Api&P=0&h=180">
 </p>
 
 ### ⚙️ Frameworks & Libraries
