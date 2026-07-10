@@ -5,9 +5,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Aspiring+Full-Stack+Developer;Passionate+Problem+Solver;Future+Software+Engineer" />
 
 <br><br>
-
-<img src="https://repository-images.githubusercontent.com/462900780/0a10af70-6cbf-46df-9071-0ff586a3b1d6" width="420"/>
-
+<video src="https://github.com/user-attachments/assets/b19c0be8-223d-4232-a58f-a633156abcf7" autoplay loop muted playsinline width="100%"></video>
 </div>
 
 ---
