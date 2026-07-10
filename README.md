@@ -5,7 +5,9 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Aspiring+Full-Stack+Developer;Passionate+Problem+Solver;Future+Software+Engineer" />
 
 <br><br>
-<img width="400" height="234" alt="WhatsApp Video 2026-07-10 at 11 03 44 PM (1)" src="https://github.com/user-attachments/assets/0fe7c570-6180-46de-a3be-c3dd2b9d1236" />
+
+
+<img width="800" height="100%" alt="RUKO JARA SABAR KARO" src="https://github.com/user-attachments/assets/932e6223-2e72-418f-b170-b3dc86c9c88d" />
 
 </div>
 
