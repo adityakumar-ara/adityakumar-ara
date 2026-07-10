@@ -5,7 +5,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Aspiring+Full-Stack+Developer;Passionate+Problem+Solver;Future+Software+Engineer" />
 
 <br><br>
-<video src="https://github.com/user-attachments/assets/b19c0be8-223d-4232-a58f-a633156abcf7" autoplay loop muted playsinline width="100%"></video>
+<img width="400" height="234" alt="WhatsApp Video 2026-07-10 at 11 03 44 PM (1)" src="https://github.com/user-attachments/assets/0fe7c570-6180-46de-a3be-c3dd2b9d1236" />
+
 </div>
 
 ---
