@@ -7,7 +7,7 @@
 <br><br>
 
 
-<img width="800" height="100%" alt="RUKO JARA SABAR KARO" src="https://github.com/user-attachments/assets/932e6223-2e72-418f-b170-b3dc86c9c88d" />
+<img width="800" height="100%" alt="RUKO_JARA_SABAR_KARO" src="https://github.com/user-attachments/assets/932e6223-2e72-418f-b170-b3dc86c9c88d" />
 
 </div>
 
