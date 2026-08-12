@@ -53,6 +53,7 @@ I am continuously learning and improving my development skills while building re
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
 
+
 ---
 
 ### 🌱 Currently Learning
@@ -62,3 +63,7 @@ I am continuously learning and improving my development skills while building re
 * Backend Development
 * Open Source Collaboration
 * AI & Machine Learning Basics
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adityakumar-ara&" alt="adityakumar-ara" /></p>
+<div align="center">
+
