@@ -63,6 +63,7 @@ I am continuously learning and improving my development skills while building re
 * Backend Development
 * Open Source Collaboration
 * AI & Machine Learning Basics
+* React
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adityakumar-ara&" alt="adityakumar-ara" /></p>
 <div align="center">
