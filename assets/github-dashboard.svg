@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+<rect width="1000" height="300" rx="22" fill="#07111b"/>
+<rect x="18" y="18" width="964" height="264" rx="18" fill="#091a27" stroke="#12384e"/>
+<circle cx="70" cy="78" r="30" fill="#0d2c40" stroke="#16d8ff" stroke-width="2"/>
+<text x="70" y="86" text-anchor="middle" fill="#16d8ff" font-family="Arial" font-size="18" font-weight="700">AK</text>
+<text x="115" y="65" fill="#eaf5f9" font-family="Arial" font-size="20" font-weight="700">Hi, I'm Aditya Kumar</text>
+<text x="115" y="90" fill="#8ca8b6" font-family="Arial" font-size="10">BCA Student | Full-Stack Developer | Python &amp; Django Developer</text>
+<text x="500" y="170" text-anchor="middle" fill="#16d8ff" font-family="Arial" font-size="18">GitHub Overview</text>
+<text x="500" y="200" text-anchor="middle" fill="#8ca8b6" font-family="Arial" font-size="11">Run “Update GitHub Dashboard” once from Actions to load your live statistics.</text>
+</svg>
