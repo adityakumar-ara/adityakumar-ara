@@ -13,14 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-snake.svg?palette=github-dark
 
-      - name: Publish snake
+      - name: Commit snake
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update contribution snake"
