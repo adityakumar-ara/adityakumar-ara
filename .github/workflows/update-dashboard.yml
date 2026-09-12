@@ -1,0 +1,35 @@
+name: Update GitHub Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Har raat 12 baje update hoga
+  workflow_dispatch: # Button dabakar manual run karne ke liye
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Dashboard Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_dashboard.py
+
+      - name: Commit and Push SVG
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/github-dashboard.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub Dashboard SVG" && git push)
