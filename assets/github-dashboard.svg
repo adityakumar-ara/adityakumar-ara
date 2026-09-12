@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+<rect width="1000" height="420" rx="24" fill="#07111B"/>
+<rect x="18" y="18" width="964" height="384" rx="18" fill="#091A27" stroke="#12364B"/>
+<text x="500" y="170" text-anchor="middle" fill="#E8F3F8" font-family="Arial" font-size="30" font-weight="700">Aditya Kumar — GitHub Overview</text>
+<text x="500" y="215" text-anchor="middle" fill="#8FA8B5" font-family="Arial" font-size="16">Run “Update GitHub Dashboard” from Actions to generate your live dashboard.</text>
+<text x="500" y="265" text-anchor="middle" fill="#12D8FF" font-family="Arial" font-size="14">adityakumar-ara</text>
+</svg>
