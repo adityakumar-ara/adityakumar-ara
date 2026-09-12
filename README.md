@@ -1,43 +1,30 @@
-<div align="center">
-<img src="./assets/github-dashboard.svg" alt="Aditya Kumar GitHub Dashboard" width="100%"/>
-</div>
-
----
-
-## 🐍 GitHub Contribution Snake
+# Hi, I'm Aditya Kumar 👋
 
 <div align="center">
-<img src="./assets/github-snake.svg" alt="GitHub contribution snake" width="100%"/>
+  <img src="./assets/github-dashboard.svg" alt="Aditya's GitHub Dashboard" />
 </div>
 
----
+<br>
 
-## 👨‍💻 About Me
-
-- 🎓 BCA Student
-- 💻 Aspiring Full-Stack Developer
-- 🐍 Python & Django Developer
+### 👨‍💻 About Me
+- 🎓 BCA student at **Shobhit University**
+- 🚀 Aspiring **Full-Stack Developer**
+- 🐍 Python & Django developer
 - 🌐 Learning React and REST APIs
-- 📚 Practicing Data Structures & Algorithms
-- 🤖 Exploring AI & Machine Learning
-- 🚀 Building real-world projects
+- 💡 Practicing Data Structures & Algorithms
+- 🤖 Exploring AI/ML and building real-world projects
 
-## 🛠 Technologies & Languages
+### 🛠️ Technologies & Languages
+**Frontend:** HTML, CSS, JavaScript, Bootstrap, React<br>
+**Backend:** Python, Django, C, Java<br>
+**Database:** PostgreSQL, MySQL<br>
+**Tools:** Git, GitHub, VS Code
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,c,js,html,css,bootstrap,react,django,postgres,mysql,git,github,vscode" />
-</p>
+### 🌟 Featured Project
+- **[Smart Salon](https://github.com/adityakumar-ara/Smart-Salon):** A comprehensive salon queue and booking management system.
 
-### 🚀 Featured Project
-
-**✂️ Smart Salon** — Django-based salon booking application.
-
-[View Smart Salon](https://github.com/adityakumar-ara/Smart-Salon)
-
----
+<br>
 
 <div align="center">
-
-**Code • Learn • Build • Repeat 🚀**
-
+  <img src="https://komarev.com/ghpvc/?username=adityakumar-ara&label=Profile%20Views&color=58a6ff&style=flat-square" alt="Profile Views" />
 </div>
