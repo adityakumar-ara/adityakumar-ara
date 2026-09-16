@@ -1,0 +1,52 @@
+name: Update GitHub Dashboard
+
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Dashboard
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_dashboard.py
+
+      - name: Check generated dashboard
+        run: |
+          ls -lh assets/github-dashboard.svg
+
+      - name: Save Dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-dashboard.svg
+
+          if git diff --cached --quiet; then
+            echo "No dashboard changes."
+          else
+            git commit -m "Update GitHub dashboard"
+            git push
+          fi
