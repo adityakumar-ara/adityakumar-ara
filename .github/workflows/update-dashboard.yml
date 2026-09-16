@@ -1,7 +1,6 @@
 name: Update GitHub Dashboard
 
 on:
-
   push:
     branches:
       - main
@@ -12,36 +11,33 @@ on:
   workflow_dispatch:
 
 jobs:
-
   update-dashboard:
-
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate Dashboard
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
         run: |
-         node scripts/generate-dashboard.js
+          node generate-dashboard.js
 
-      - name: Commit Dashboard
+      - name: Save Dashboard
         run: |
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add github-dashboard.svg
 
-          git diff --cached --quiet || \
-          git commit -m "Update GitHub dashboard"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to dashboard"
+          else
+            git commit -m "Update GitHub dashboard"
+            git push
+          fi
