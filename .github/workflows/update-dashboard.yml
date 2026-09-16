@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
-          node generate-dashboard.js
+         node scripts/generate-dashboard.js
 
       - name: Commit Dashboard
         run: |
