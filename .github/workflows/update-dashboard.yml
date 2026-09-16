@@ -31,7 +31,7 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node scripts/generate_dashboard.js
+          node scripts/generate-dashboard.js
 
       - name: Check generated dashboard
         run: |
