@@ -177,40 +177,30 @@ async function getUser() {
                 }
 
 
-                contributionsCollection {
+    contributionsCollection {
 
-                    totalContributions
+    totalCommitContributions
 
-                    totalCommitContributions
+    totalPullRequestContributions
 
-                    totalPullRequestContributions
+    totalIssueContributions
 
-                    totalIssueContributions
+    totalRepositoryContributions
 
-                    totalRepositoryContributions
+    restrictedContributionsCount
 
-                    restrictedContributionsCount
+    contributionCalendar {
+        totalContributions
 
-                    contributionCalendar {
-
-                        totalContributions
-
-                        weeks {
-
-                            contributionDays {
-
-                                contributionCount
-                                date
-                                weekday
-                            }
-                        }
-                    }
-                }
+        weeks {
+            contributionDays {
+                contributionCount
+                date
+                weekday
             }
         }
-    `;
-
-
+    }
+}
     const data = await github(
         query,
         {
