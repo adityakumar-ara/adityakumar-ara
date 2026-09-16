@@ -18,7 +18,6 @@ jobs:
       contents: write
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -32,7 +31,7 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/generate-dashboard.py
+          python scripts/generate_dashboard.py
 
       - name: Check generated dashboard
         run: |
